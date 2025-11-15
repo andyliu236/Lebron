@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pictures and Fun Facts</title>
+    <style>
+        body {
+            background-image: url('yellow.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 600vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 15px;
+            text-align: center;
+            position: static;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: blue;
+            font-size: 30px;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            color: purple;
+        }
+
+        h1 {
+            color: purple;
+            font-size: 50px;
+            text-shadow: 1px 1px 2px black;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: 200px;
+            object-fit: contain;
+            border: 3px solid purple;
+            border-radius: 10px;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .funfact-section {
+            display: flex;
+            align-items: center;  
+            justify-content: center;
+            gap: 40px; 
+            padding: 40px;
+        }
+
+        .funfact-section img {
+            width: 350px;
+            height: auto;
+            border: 3px solid purple;
+            border-radius: 10px;
+        }
+
+        .funfact-text {
+            max-width: 500px;
+            font-size: 20px;
+            color: darkblue;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="websitemainpage.html">Home</a>
+            <a href="websitepicturesandfunfacts.html">Pictures and Fun Facts</a>
+        </nav>
+    </header>
+
+    <h1>Pictures of LeBron</h1>
+
+    <div class="gallery">
+        <img src="lebron4.jpg" alt="LeBron James photo 1">
+        <img src="lebron5.jpg" alt="LeBron James photo 2">
+        <img src="lebron6.jpg" alt="LeBron James photo 3">
+        <img src="lebron8.jpg" alt="LeBron James photo 4">
+        <img src="lebron9.jpg" alt="LeBron James photo 5">
+        <img src="lebron10.jpg" alt="LeBron James photo 6">
+        <img src="lebron11.jpg" alt="LeBron James photo 7">
+        <img src="lebron12.jpg" alt="LeBron James photo 8">
+        <img src="lebron13.jpg" alt="LeBron James photo 9">
+        <img src="lebron14.jpg" alt="LeBron James photo 10">
+        <img src="lebron15.jpg" alt="LeBron James photo 11">
+        <img src="lebron16.jpg" alt="LeBron James photo 12">
+        <img src="lebron17.jpg" alt="LeBron James photo 13">
+        <img src="lebron18.jpg" alt="LeBron James photo 14">
+        <img src="lebron21.jpg" alt="LeBron James photo 15">
+        <img src="lebron20.jpg" alt="LeBron James photo 16">
+    </div>
+
+    <h1>Fun Facts</h1>
+    <div class="funfact-section">
+        <img src="lebron15.jpg" alt="LeBron with his kids">
+        <div class="funfact-text">
+            <h2>Great father</h2>
+            <p>Lebron has three kids: Bronny, Bryce, and Zhuri.</p>
+        </div>
+    </div>
+    <div class="funfact-section">
+        <img src="lebron22.jpg" alt="Chalk toss">
+        <div class="funfact-text">
+            <h2>Chalk Toss</h2>
+            <p>Lebron has a tradition of throwing chalk in the air before every game.</p>
+        </div>
+    </div>
+    <div class="funfact-section">
+        <img src="lebronfamilyfoundation.jpg" alt="Family foundation">
+        <div class="funfact-text">
+            <h2>Lebron James Family Foundation</h2>
+            <p>Supports kids of Lebron's hometown, Akron, Ohio.</p>
+        </div>
+    </div>
+    <div class="funfact-section">
+        <img src="lebroncurryhospitalreal.jpg" alt="Lebron Curry Hospital">
+        <div class="funfact-text">
+            <h2>Coincidence??</h2>
+            <p>Lebron and Curry were born in the same hospital, at Akron City Hospital.</p>
+        </div>
+    </div>
+    <div class="funfact-section">
+        <img src="lebronking.jpg" alt="King James">
+        <div class="funfact-text">
+            <h2>Nicknames</h2>
+            <p>Lebron goes by the nickname "King James". Although some people might call him "LBJ", "LeMerica", but "King James" is the most popular one.</p>
+        </div>
+    </div>
+</body>
+</html>
